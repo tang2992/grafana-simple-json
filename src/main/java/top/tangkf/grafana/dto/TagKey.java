@@ -1,0 +1,15 @@
+package top.tangkf.grafana.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class TagKey {
+	private String text;
+	private String type;
+}
